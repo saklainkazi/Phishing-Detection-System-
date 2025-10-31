@@ -24,19 +24,17 @@ This open-source project aims to enhance **user security** by providing **real-t
 
 ## 📂 Project Structure
 
-Phishing-Detection-Extension/
-│
-├── extension/ # Browser extension files (manifest.json, popup.html, scripts)
-├── model/ # Machine learning model training and saved files
-├── backend/ # API to connect ML model with the extension
-├── assets/ # Icons, screenshots, and other static files
-│
-├── README.md # Documentation
-├── LICENSE # MIT License
-└── CONTRIBUTING.md # Contribution guidelines
+```yaml
+Phishing-Detection-Extension:
+  extension: "Browser extension files (manifest.json, popup.html, scripts)"
+  model: "Machine learning model training and saved files"
+  backend: "API to connect ML model with the extension"
+  assets: "Icons, screenshots, and other static files"
 
-yaml
-Copy code
+  README.md: "Documentation"
+  LICENSE: "MIT License"
+  CONTRIBUTING.md: "Contribution guidelines"
+```
 
 ---
 
